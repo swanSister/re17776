@@ -1,0 +1,40 @@
+@import "./base.css";
+
+@font-face {
+  font-family: 'euljiro';
+  src: url('./font/BMEULJIROTTF.ttf');
+}
+
+#app {
+  font-weight: 100;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 4vw;
+  word-break:keep-all;
+}
+body {
+  min-height: 100vh;
+  /* mobile viewport bug fix */
+  min-height: -webkit-fill-available;
+}
+ul, li{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+html {
+  height: -webkit-fill-available;
+}
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 760px) {
+  #app{
+    font-size: 2vw;
+  }
+}
+
+
+
